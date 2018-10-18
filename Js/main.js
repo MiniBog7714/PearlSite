@@ -14,28 +14,28 @@ function test1(){
 		console.log("het him something yellow.");
 	}
 	else {
-		console.log("that's not a color")
+		console.log("that's not a color");
 	}
 }
 
 function test2(){
-	var age=prompt("how old are you?")
+	var age=prompt("how old are you?");
 	
 
 	if(age < 14){
-		alert("GET OUUUUTTT")
+		alert("GET OUUUUTTT");
 
 	}
 	else if(age == 14){
-		alert("14 is a good age")
+		alert("14 is a good age");
 
 	}
 	else if(age > 14){
-		alert("YOU ARE IIIINNNN")
+		alert("YOU ARE IIIINNNN");
 
 	}
 	else{
-		alert("Not a valid age")
+		alert("Not a valid age");
 
 	}
 }
