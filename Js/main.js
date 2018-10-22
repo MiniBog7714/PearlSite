@@ -18,7 +18,7 @@ function test1(){
 	}
 }
 
-function test2(){
+function test2(){    
 	var age=prompt("how old are you?");
 	
 
