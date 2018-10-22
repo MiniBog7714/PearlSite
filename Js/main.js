@@ -40,7 +40,5 @@ function test2(){
 	}
 	else{
 		alert("Not a valid age");
-
->>>>>>> 1bf52ebc4c028d4de2243320920071ffcabfa30b
 	}
 }
