@@ -8,6 +8,6 @@ function test1(){
 		console.log("ha. this guy likes red");
 	}
 	else if( myColour == "green"){
-		console.log()"ah, green. He's alright."): 
+		console.log()"ah, green. He's alright.": 
 	}
 }

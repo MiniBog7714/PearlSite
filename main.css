@@ -41,7 +41,8 @@ hr {
     margin: 1em 0;
     padding: 0; 
 }
-.button {
+
+button {
     background-color: #4CAF50; 
     border: none;
     color: white;
@@ -51,3 +52,14 @@ hr {
     display: inline-block;
     font-size: 16px;
 }
+
+button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
