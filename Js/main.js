@@ -7,7 +7,40 @@ function test1(){
 
 		console.log("ha. this guy likes red");
 	}
+<<<<<<< HEAD
 	else if( myColour == "green"){
 		console.log()"ah, green. He's alright.": 
+=======
+	else if(myColour == "green"){
+		console.log("ah, green. He's alright.");
+	}
+	else if(myColour == "yellow"){
+		console.log("het him something yellow.");
+	}
+	else {
+		console.log("that's not a color");
+	}
+}
+
+function test2(){    
+	var age=prompt("how old are you?");
+	
+
+	if(age < 14){
+		alert("GET OUUUUTTT");
+
+	}
+	else if(age == 14){
+		alert("14 is a good age");
+
+	}
+	else if(age > 14){
+		alert("YOU ARE IIIINNNN");
+
+	}
+	else{
+		alert("Not a valid age");
+
+>>>>>>> 1bf52ebc4c028d4de2243320920071ffcabfa30b
 	}
 }
