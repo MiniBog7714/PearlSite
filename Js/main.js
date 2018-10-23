@@ -6,11 +6,7 @@ function test1(){
 	if(myColour == "red"){
 
 		console.log("ha. this guy likes red");
-	}
-<<<<<<< HEAD
-	else if( myColour == "green"){
-		console.log()"ah, green. He's alright.": 
-=======
+	} 
 	else if(myColour == "green"){
 		console.log("ah, green. He's alright.");
 	}
