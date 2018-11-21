@@ -1,4 +1,5 @@
-function test1(){
+
+function test1() {
     
 	var fName = prompt("Hey what's your name?");
 	var myColour = prompt("Pick a colour, " + fName);
@@ -20,7 +21,7 @@ function test1(){
 	}
 }
 // Second Test
-function test2(){    
+function test2() {    
 	var age=prompt("how old are you?");
 	
 
@@ -42,32 +43,54 @@ function test2(){
 }
 
 
-function FizzBuzz(){
+function FizzBuzz() {
 	var number=prompt("Type a number") 
 
 	for (var i=1; i < 101; i++){
-    if (i % 15 == 0) print("FizzBuzz");
-    else if (i % 3 == 0) print("Fizz");
-    else if (i % 5 == 0) print("Buzz");
-    else console.log(i);
+    	if (i % 15 == 0) {
+    		prompt("FizzBuzz");
+    	}
+    	else if (i % 3 == 0) {
+    		prompt("Fizz");
+    	}
+    	else if (i % 5 == 0) {
+    		prompt("Buzz");
+    	}
+    	else {
+    		console.log(i);
+    	}
+    }
 }
 
 
-function test4(){
-	console.log(Math.random);
-	
-	var number=prompt("What number am I thinking of");
-	
-	if(number > Math.random){
+function Guess() {
 
-		print("Too big");
-	}
-	else if(number < Math.random){
+	var rand = Math.floor((Math.random() * 1000));
+	var num = prompt("Guess a number between 1 and 1000.");
+	while(num != rand){
+		if(num > rand){
+			num=prompt("Too high, try again!");
+		}else if(num < rand){
+			num=prompt("Too low, try again!");
+		}else if(num == rand){
+			num=alert("You right");
+			{break;}	
+		}else{
+			alert("Do you even Math, bro?");
+		}
 
-		print("Too small");
 	}
-	else{
-		alert ("Do you even Math, Bro?")
-	}
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
