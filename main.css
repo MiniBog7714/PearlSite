@@ -6,9 +6,6 @@ body{
 
 ul {
 	list-style-position: inside;
-}
-
-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,29 +15,26 @@ ul {
 
 li {
     float: center;
+    list-style-type: none;
+    display: inline;
 }
 
 li a {
+    float: center;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    display: inline;
+    list-style-type: none;
 }
 
 li a:hover {
     background-color: #73BFDB;
 }
 
-hr {
 
-    display: block;
-    height: 0px;
-    border: 0;
-    border-top: 1px solid #00000;
-    margin: 1em 0;
-    padding: 0; 
-}
 
 button {
     background-color: #000000; 
@@ -51,10 +45,8 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
-
-}
-button {
+    width: 8em;
+    height: 8em; 
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
@@ -74,6 +66,93 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: 000000;
+    background-color: #73BFDB;
+}
+
+.teddy {
+    font-size: calc(50vmin / 260);
+    position: relative;
+    margin: auto;
+    width: 260em;
+    height: 330em;
+}
+.teddy div {
+    position: absolute;
+}
+.right-ear, .left-ear, .head, .right-eye, .left-eye, .mouth-area, .nose, .nose-inner, .right-cheek, .left-cheek, {
+    border-radius: 50%;
+}
+.right-ear, .left-ear {
+    background: rgb(95,60,30);
+    box-shadow: 0 0 0 20em rgb(190,120,60) inset;
+    width: 80em;
+    height: 80em;
+}
+.right-ear {
+    left: 30em;
+}
+.left-ear {
+    right: 30em;
+}
+.head {
+    background: rgb(190,120,60);
+    width: 160em;
+    height: 160em;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+.right-eye, .left-eye, .nose-inner {
+    background: rgb(255, 255, 255);
+}
+.right-eye, .left-eye {
+    box-shadow: 2em -2em 0 8em inset;
+    top: 65em;
+    width: 20em;
+    height: 20em;
+}
+.right-eye {
+    left: 45em;
+}
+.left-eye {
+    right: 45em;km7 h,mb
+}
+.mouth-area {
+    background: rgb(230,160,90);
+    right: 0;
+    bottom: 5em;
+    left: 0;
+    margin: auto;
+    width: 100em;
+    height: 70em;
+}
+.nose {
+    background: rgb(0,0,0);
+    top: 15em;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 40em;
+    height: 30em;
+}
+.nose-inner {
+    top: 3em;
+    right: 8em;
+    width: 10em;
+    height: 8em;
+}
+.right-cheek, .left-cheek {
+    bottom: 10em;
+    width: 30em;
+    height: 30em;
+}
+.right-cheek {
+    box-shadow: -2em -2em 0 0 rgb(115,80,45) inset;
+    left: 20em;
+}
+.left-cheek {
+    box-shadow: 2em -2em 0 0 rgb(115,80,45) inset;
+    right: 20em;
 }
 
